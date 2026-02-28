@@ -1,0 +1,13 @@
+.users {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users__loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: var(--color-users-loading);
+}

@@ -1,0 +1,39 @@
+.users__table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.users__row:hover {
+  background: var(--color-bg-light);
+  cursor: pointer;
+}
+
+.users__cell {
+  border: 1px solid var(--color-border);
+  padding: 8px;
+  min-width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.users__cell--head {
+  background: var(--color-bg-head);
+  cursor: pointer;
+  position: relative;
+}
+
+.users__resizer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: transparent;
+  cursor: col-resize;
+}
+
+.users__resizer:hover {
+  background: var(--color-border);
+}

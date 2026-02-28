@@ -1,0 +1,8 @@
+.users__title {
+  margin-bottom: 20px;
+}
+
+.users__error {
+  color: var(--color-danger);
+  margin-bottom: 10px;
+}

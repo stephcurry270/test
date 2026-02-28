@@ -1,0 +1,23 @@
+.users-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: var(--color-bg-users-modal);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.users-modal--open {
+  display: flex;
+}
+
+.users-modal__content {
+  background: var(--color-bg-users-modal-content);
+  padding: 20px;
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
